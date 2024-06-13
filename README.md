@@ -3,14 +3,18 @@
 本系统是一个SpringCloud集成了人工智能技术的心理健康辅导平台，旨在通过AI辅助功能提供个性化的心理评估和咨询。
 
 ##技术栈
-- SpringBoot
-- SpringCloud
-- Redis
-- MySQL
-- MybatisPlus
-- RabbitMQ
-- Spring Cache
-- websocket
+- SpringBoot 
+- SpringCloud 
+- Redis 缓存、锁
+- MySQL 
+- MybatisPlus curd
+- RabbitMQ 消息队列
+- Spring Cache 组件缓存
+- Spring Schedule 定时任务调度
+- Spring Gateway 网关以及实现了一个拦截器
+- websocket IM即时通话
+- Deeplearning4j 数据分析
+- OpenNLP 自然语言处理
 
 ## 系统功能概览
 
@@ -23,7 +27,6 @@
 - **形成学生心理画像**：利用收集的数据，为每位学生建立心理画像。
 
 ### AI咨询与辅导
-- **训练心理健康大模型**：结合心理咨询问答语料库，训练专业的心理健康AI模型。
 - **进行AI即时咨询**：用户可以与AI进行即时对话，获取初步的心理支持和建议。
 - **开展AI人机对话**：通过人机对话，系统提供个性化的心理辅导。
 
